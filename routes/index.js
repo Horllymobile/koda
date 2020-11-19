@@ -10,6 +10,10 @@ router.get('/users', async(req, res) => {
 
 router.get('/home', (req, res) => {
     res.render('index');
+});
+
+router.get('/dashboard', (req, res) => {
+    res.render('dashboard');
 })
 
 
