@@ -1,0 +1,18 @@
+<% if (typeof error !== 'undefined') { %>
+    <p class="red-text">
+        <%=error %> 
+    </p>
+<% } %>
+
+
+<% if (success_msg) { %>
+    <p class="green-text">
+        <%=success_msg %> 
+    </p>
+<% } %>
+
+<% if (error_msg) { %>
+    <p class="red-text">
+        <%=error_msg %> 
+    </p>
+<% } %>
